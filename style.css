@@ -1,0 +1,280 @@
+#backgroundVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+body, html {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* NAVBAR */
+
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6vh;
+}
+
+.logo {
+    display: flex;
+    padding: 15px;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    padding-right: 15px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+li {
+    list-style: none;
+}
+
+.loginbtn {
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+.loginbtn:hover {
+    background-color: rgba(255, 255, 255, 0.349);
+    transition: all 0.3s ease;
+}
+
+/* HERO + SCROLL INDICATOR */
+
+.heroSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    height: 84vh;
+    gap:15px;
+}
+
+.hero h1 {
+    font-size: 68px;
+}
+
+.cta {
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+.cta:hover {
+    background-color: rgba(255, 255, 255, 0.349);
+    transition: all 0.3s ease;
+}
+
+.scroll-indicator {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  color: rgb(255, 255, 255);
+  height: 10vh;
+}
+
+/* CONTENT */
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    box-sizing:border-box;
+    z-index: 2;
+    height: 90vh;
+    
+}
+
+.featuresContainer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 150px;
+}
+
+.featureText {
+    width: 75%;
+}
+
+.featureImage {
+    display: flex;
+    justify-content: center;
+}
+
+.trust {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+/* GRID */
+
+.grid_container {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 2fr;
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-row-end: 2;
+    grid-column-end: 4;
+    padding-inline: 150px;
+    padding-top: 40px;
+}
+
+.item0 {
+    background-image: url("https://unsplash.it/600/400");
+    
+}
+
+.item1 {
+    background-color:#000;
+    color: white;
+    padding: 60px;
+}
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 25px;
+    padding: 40px 20px;
+}
+
+.subsection {
+    background-color: beige;
+    padding: 40px;
+}
+
+.comment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+}
+
+.profilePic {
+    max-width: 20%;
+    max-height: 20%;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    color: white;
+}
+
+.btnTrial {
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.24);
+}
+
+.footcontainer {
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    padding: 30px;
+    align-items: start;
+}
+
+.foot0 {
+    justify-self: center;
+    align-self: center;
+}
+
+.foot1 {
+    border-right: 1px solid rgb(255, 255, 255);
+    text-align: left;
+}
+
+.foot2 {
+    text-align: left;
+    margin-left: 30px;
+}
+
+.footList {
+    margin: 0;
+    padding: 0;
+
+}
+
+.logoImage {
+    max-width: 60%;
+    max-height: 60%;
+}
+
+.foot1 h4,
+.foot2 h4,
+.foot3 h4,
+.foot1 p,
+.foot2 p,
+.foot3 p {
+    margin: 0 0 30px 0;
+}
+
